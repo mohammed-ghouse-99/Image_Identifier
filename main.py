@@ -1,5 +1,5 @@
 from fastapi import FastAPI, UploadFile, File
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse  
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
